@@ -1,0 +1,31 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Table {
+    border-spacing: 0;
+}
+
+.Table__data-row:hover {
+    background-color: #ebecf0;
+}
+
+.Table__data-row_has-empty-values {
+    background-color: #FC0D85;
+}
+
+.Table__data-row_has-empty-values:hover {
+    background-color: #a02462;
+}
+
+.Table__heading {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.Table__data-cell {
+    padding: 5px;
+    border: 1px solid gray;
+}
