@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Select from './Select';
 import Table from './Table';
 import reportWebVitals from './reportWebVitals';
 
