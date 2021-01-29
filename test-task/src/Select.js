@@ -3,7 +3,7 @@ import TimeReport from './TimeReport';
 import './Select.css';
 
 const data = TimeReport
-    .filter( (data, index, self) => 
+    .filter( (data, index, self) => // Фильтрация массива, исключающая повторные значения для ключа "Task"
         index === self.findIndex((t) => (
             t.Task === data.Task
         ))
