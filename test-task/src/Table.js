@@ -6,7 +6,7 @@ import Select from './Select';
 // Компонент для рендера строки таблицы
 function RenderData(props) {
     return (
-        <tr className={"Table__data-row" + ' ' + props.isEmpty}>
+        <tr className={"Table__data-row " + props.isEmpty}>
             <td className="Table__data-cell">{props.num}</td>
             <td className="Table__data-cell">{props.firstName + ' ' + props.lastName}</td>
             <td className="Table__data-cell">{props.project}</td>
